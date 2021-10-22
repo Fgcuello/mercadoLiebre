@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+
+.centrar {
+    text-align: center;
+  }
+.ajustar{
+padding: 50px 450px 50px;
+}
+ 
+
+body {
+    background-color: rgb(204, 204, 204);
+    overflow-x: hidden
+    }
+    
+header{
+        background-color: yellow;
+        overflow-x: hidden;
+        }
+
+ul,li{
+    list-style: none;
+}
+    
+.hamburguer{
+justify-content: center;
+align-items: center;
+margin: 1rem;
+background-color: #0044AA;
+border-radius: 5px;
+margin-bottom: 10px;
+text-align: center;
+cursor: pointer;
+font-size: 30px;
+color:#ebebeb;
+width: 40px;
+margin-right: auto;
+margin-left: auto;
+
+
+}  
+
+.contenedor {
+    width: 90px;
+}
+
+.tarjeta{
+    
+    text-align:center;
+    background-color: white; 
+    flex-wrap: wrap;
+    width: 350px;
+    height: 430px;
+    margin: 50px;
+    }
+    
+    
+        
+    
+
+
+    .tarjeta img{
+        width: 320px;
+    }
+    .linea{
+        border-top: 2px solid gray
+    }
+
+    .carro{
+        color: green;
+        padding-right: 250px;
+    }
+    
+.productos{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.contenedor .productos{
+    display: inline-block;
+}
+
+.logo{
+    width: 40%;
+    text-align:left;
+}  
+
+.agrandar{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+}
+.lista ul{
+    display: flex;
+}
+
+.lista ul li{
+    margin: 0 3px;
+}
+
+a {
+    color:blue;
+}
+
+a:link {
+    color:blue;
+}
+
+a:active {
+    color:blue;
+}
+
+a:visited {
+    color:blue;
+}
+
+.precio{
+font-size: 18px;
+}
+.descuento{
+font-size: 16px;
+}
+.descripcion{
+font-size: 16px
+}
+
+b{
+font-size: 24px;
+}
+
+
+
+
