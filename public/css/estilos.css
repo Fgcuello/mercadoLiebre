@@ -48,7 +48,10 @@ margin-left: auto;
 }  
 
 .contenedor {
-    width: 90px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .tarjeta{
@@ -134,10 +137,13 @@ b{
 font-size: 24px;
 }
 
-@media(max-width: 460px) and (orientation: landscape){
-    body{
-        background: blue;
-    }
+body{
+    background: red;
 }
+@media (min-width: 460px){
 
+}
+@media (orientation: landscape){
+    
+}
 
